@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>MyAccount</title>
+  </head>
+  <link rel="stylesheet" href="header_footer.css" />
+  <link rel="stylesheet" href="myAccount_css.css" />
+  <body>
+     <!-- header nav-->
+    <div id='header_nav'>
+      <div class="menu">
+        <ul style="list-style-type:none">
+          <a href="index.html" target="_self"><li>HOME</li></a>
+          <a href="#"><li>SHOP</li></a>
+        <a href="#"><li>PRODUCT</li></a>
+        <a href="#"><li>PAGES</li></a>
+        <a href="#"><li>SITEMAP</li></a>
+        <a href='http://localhost/about.html' target="_blank"><li>ABOUT</li></a>
+      </ul>
+      </div>
+      <div class="search_bar">
+        <input type="text" placeholder="Search Products" /> <span style="font-size:20px;">&#x1F50D</span>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#footer"> <div class="basic_icons" >
+          <center> &downarrow;</center>
+       </div></a>
+    </div>
+    
+<!--     -------------deatils box--------------  -->
+    <div class="container">
+      <div class="personal_info">
+          <p>
+            Personal Info &nbsp;&nbsp;&nbsp;<span style="font-size:0.8em;font-weight:normal;cursor:pointer;" onclick="enable_info()">Edit&nbsp;&#128393;<span>
+          </p>
+            <form action="http://localhost/cgi-bin/myAccount.py">
+              <input type="text" name="fname" placeholder="Aditya" id="name" disabled/>
+              <input type="text" name="lname" placeholder="Raj" disabled/></br></br>
+            <!-- <span>Your Gender</span></br>
+              <input type="radio" name="sex" id="male" name="sex" disabled/>
+            <label for="male" >Male</label>&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="sex" id="female" value="female" disabled/>
+            <label for="female" >Female</label></br></br> -->
+          <p>
+             LogIn Credential
+          </p> 
+             <label>Email Address</label> </br>
+             <input type="email" name="email" disabled/>
+             </br>
+           <label>Password</label> </br>
+  <input type="password" name="password" disabled/></br></br>
+          <p>
+            Address
+          </p>
+              <span>Mobile Number</span></br>
+            <input type="number" name="mobile" disabled/></br></br>
+              <span>Address Line 1</span></br>
+              <input type="text" name="address1" disabled/> </br></br>
+            <span>Address Line 2</span></br>
+            <input type="text" name="address2" disabled/></br></br>
+            <input type="submit" value="SAVE" id="save3" disabled/>
+            </form>
+          </div>
+        <div class="faqs">
+          <p style="font-weight:bold;font-style:sans-serif;font-size:1.5em;color:black;">
+            FAQs
+          </p>
+          <div class="faq_details">
+            <span>What happens when I update my email address (or mobile number)?</span></br>
+Your login email id (or mobile number) changes, likewise. You'll receive all your account related communication on your updated email address (or mobile number).
+
+          </br><span>When will my Flipkart account be updated with the new email address (or mobile number)?</span></br>
+It happens as soon as you confirm the verification code sent to your email (or mobile) and save the changes.
+
+</br><span>What happens to my existing Flipkart account when I update my email address (or mobile number)?</span></br>
+Updating your email address (or mobile number) doesn't invalidate your account. Your account remains fully functional. You'll continue seeing your Order history, saved information and personal details.
+
+</br><span>Does my Seller account get affected when I update my email address?</span></br>
+Flipkart has a 'single sign-on' policy. Any changes will reflect in your Seller account also.
+          </div></br></br>
+          <p style="font-family:sans-serif;color:red;cursor:pointer;">
+            Deactivate Account
+          </p>
+    </div>
+</div>
+    
+    <!-- ------------footer------------- -->
+  <h2 class="footer_head"> ACCOUNT SETTINGS </h2>
+  <div id="footer">
+    <ul style="list-style-type:none">
+      <li style="font-weight:bold;font-size:2em;font-family:sans-serif;line-height:90px;border:none;cursor:text;">About</li>
+      <a href='http://localhost/cgi-bin/authenticate.py' target="_self"><li>My account</li></a>
+      <a href='http://localhost/about.html' target="_blank">  <li>ABout</li></a>
+      <a href='#'> <li>Sitemap</li></a>
+      <a href='#'> <li>Product Compare</li></a>
+    </ul>
+    <ul style="list-style-type:none">
+      <li style="font-weight:bold;font-size:2em;font-family:sans-serif;line-height:90px;border:none;cursor:text;">Information</li>
+      <a href='register.html' target="_self"><li>Register</li></a>
+      <a href="login.html" target="_self"><li>Login</li></a>
+      <a href='#'> <li>My Cart</li></a>
+      <a href='#'> <li>Wishlist</li></a>
+      <a href='http://localhost/cgi-bin/logout.py' target="_self"> <li style="color:red;">LogOut</li></a>
+    </ul>
+    
+    <div class="subscribe">
+      <div class="subscribe_details">
+        <p style="font-size:2em;font-weight:bolder;font-family:sanf-serif;">Don't miss a thing</p>
+     <p style="font-family:sanf-serif;"> Enter your email below to be the first to know about new </br>
+      collections and product launches.
+  </p>
+      </div>
+      <form class="footer_form">
+        <div class="email_logo">&#9993;</div>
+        <input type="email" placeholder="Enter your email">
+        <button type="submit">&rightarrow;</button>
+      </form>
+    </div>
+</div>
+  </body>
+<script src="myAccount_script.js"></script>
+</html>

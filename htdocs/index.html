@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>WebStore</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <link rel='stylesheet' href='style.css'>
+  <link rel="stylesheet" href="header_footer.css">
+  <body>
+    
+    <!-- header nav-->
+    <div id='header_nav'>
+      <div class="menu">
+        <ul style="list-style-type:none">
+          <a href="#"><li>HOME</li></a>
+          <a href="#"><li>SHOP</li></a>
+        <a href="#"><li>PRODUCT</li></a>
+        <a href="#"><li>PAGES</li></a>
+        <a href="#"><li>SITEMAP</li></a>
+        <a href='http://localhost/about.html' target="_blank"><li>ABOUT</li></a>
+      </ul>
+      </div>
+      <div class="search_bar">
+        <input type="text" placeholder="Search Products" /> <span style="font-size:20px;">&#x1F50D</span>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+       <a href="#footer"> <div class="basic_icons" >
+         <center> &downarrow;</center>
+      </div></a>
+      </div>
+      
+    </div>
+    
+    <!-- big poster-->
+    <div class="poster">
+      <p>
+        ECOMMERCE WEBSITE
+      </p>
+    </div>
+    
+    <!-- 3 examples child division tag-->
+    <div class="example">
+      <div>
+        <div id="variety1">
+          <center>ULTRA TOUCH</center>
+        </div>
+      </div>
+      <div>
+        <div id="variety2">
+          <center>DARK SIDE</center>
+        </div>
+      </div>
+      <div>
+        <div id="variety3">
+        <center>FOLDABLE</center>
+        </div>
+      </div>
+    </div>
+    
+    <!-- ---------Trending 1-------- -->
+    <h2 class="top_trend">TOP TRENDING</h2>
+    <div id="trending">
+      <div onclick="payment()"></div>
+      <div onclick="payment()"></div>
+      <div onclick="payment()"></div>
+      <div onclick="payment()"></div>
+      <div onclick="payment()"></div>
+    </div>
+    <br><br><br><br><br>
+    <!-- -----------banner-------------- -->
+  <div class="banner">
+    <div class="picture">
+      
+    </div>
+    <div class="details">
+      <p class="p1">DEFINE YOURSELF.<br>
+        BE DIFFERENT.</p>
+      <p class="p2">This is a punch in every department. 
+        The 16.9cm (6.67) FHD+ Super AMOLED ultra-bright display gives a billion colours, 
+        which come true to life thanks to the 100% DCI-P3 colour gamut. 
+        This smartphone features a magnificent 64MP Quad Camera that combines a powerful 64MP primary sensor, 
+        8MP ultra-wide angle lens, a 5MP super tele-macro lens and a 2MP depth sensor for the professional 
+        photographer in you.</p>
+    </div>
+    </div>
+<!-- ---------Companies------- -->
+    <h2 class="top_comp">TOP COMPANIES</h2>
+    <div id="companies">
+      <div class="comp" onclick="myFlip(0)"></div>
+      <div class="comp" onclick="myFlip(1)"></div>
+      <div class="comp" onclick="myFlip(2)"></div>
+      <div class="comp" onclick="myFlip(3)"></div>
+      <div class="comp" onclick="myFlip(4)"></div>
+    </div>
+    <br><br><br><br>
+
+<!-- ---------Scroll Picture -------- -->
+<div class="scroll_picture">
+  <div class="c2">
+    <div class="d1"></div>
+    <div class="d2"></div>
+    <div class="d3"></div>
+    <div class="d4"></div>
+  </div>
+</div>
+</br></br></br></br>
+ 
+<!-- ------------footer------------- -->
+  <h2 class="footer_head">
+    ACCOUNT SETTINGS</h2>
+  <div id="footer">
+    <ul style="list-style-type:none">
+      <li style="font-weight:bold;font-size:2em;font-family:sans-serif;line-height:90px;border:none;cursor:text;">About</li>
+     <a href='http://localhost/cgi-bin/authenticate.py' target="_self"><li>My account</li></a>
+      <a href='http://localhost/about.html' target="_blank">  <li>About</li></a>
+      <a href='#'> <li>Sitemap</li></a>
+      <a href='#'> <li>Product Compare</li></a>
+    </ul>
+    <ul style="list-style-type:none">
+      <li style="font-weight:bold;font-size:2em;font-family:sans-serif;line-height:90px;border:none;cursor:text;">Information</li>
+      <a href="http://localhost/register.html" target="_self"><li>Register</li></a>
+      <a href="http://localhost/login.html" target="_self"><li>Login</li></a>
+      <a href='#'> <li>My Cart</li></a>
+      <a href='#'> <li>Wishlist</li></a>
+      <a href="http://localhost/cgi-bin/logout.py" target="_self"> <li style="color:red;">LogOut</li></a>
+    </ul>
+    
+    <div class="subscribe">
+      <div class="subscribe_details">
+        <p style="font-size:2em;font-weight:bolder;font-family:sanf-serif;">Don't miss a thing</p>
+     <p style="font-family:sanf-serif;"> Enter your email below to be the first to know about new </br>
+      collections and product launches.
+  </p>
+      </div>
+      <form class="footer_form">
+        <div class="email_logo">&#9993;</div>
+        <input type="email" placeholder="Enter your email">
+        <button type="submit">&rightarrow;</button>
+      </form>
+    </div>
+</div>
+<hr>
+  </body>
+  <script src='script.js'></script>
+</html>

@@ -1,0 +1,447 @@
+body {
+    background-color: ;
+  }
+
+  /*--------------------------poster------------*/
+  .poster {
+    width: 102%;
+    height: 700px;
+    background-image: url("https://cdn.glitch.me/1b7a87cc-1ff1-4c0b-9a7f-f189967cd646%2Fimage1.jpg?v=1633701549867");
+    background-size: 100%;
+    position: relative;
+    top: -10px;
+    left: -10px;
+    display: flex;
+    justify-content: center;
+  }
+  .poster > p {
+    color: white;
+    font-weight: bolder;
+    font-size: 5em;
+    font-family: Sans-serif;
+  }
+  
+  /*----------------------3 example div-----------*/
+  
+  .example {
+    display: flex;
+    justify-content: space-around;
+  }
+  .example > div {
+    width: 30%;
+    height: 260px;
+  }
+  
+  .example > div:nth-child(1) {
+    background: #FF7E16;
+    background-image: url("https://cdn.glitch.me/1b7a87cc-1ff1-4c0b-9a7f-f189967cd646%2Fpixel_5.png?v=1633828748637");
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 1%;
+    box-shadow: 2px 2px 5px black;
+  }
+  .example > div:nth-child(2) {
+    background: #51AFF7;
+    background-image: url("https://cdn.glitch.me/1b7a87cc-1ff1-4c0b-9a7f-f189967cd646%2F525-5259250_apple-ios-13-iphone-hd-png-download-apple-removebg-preview.png?v=1633830894745");
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 1%;
+    box-shadow: 2px 2px 5px black;
+  }
+  .example > div:nth-child(3) {
+    background: #F2C800;
+    background-image: url("https://cdn.glitch.me/1b7a87cc-1ff1-4c0b-9a7f-f189967cd646%2Ffoldable.png?v=1633831219315");
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 1%;
+    box-shadow: 2px 2px 5px black;
+  }
+  
+  .example > div:nth-child(1):hover {
+    background-image: url("https://cdn.glitch.me/1b7a87cc-1ff1-4c0b-9a7f-f189967cd646%2Fpixel_5.png?v=1633828748637");
+    background-size: 60%;
+  }
+  
+  .example > div:nth-child(2):hover {
+    background-image: url("https://cdn.glitch.me/1b7a87cc-1ff1-4c0b-9a7f-f189967cd646%2F525-5259250_apple-ios-13-iphone-hd-png-download-apple-removebg-preview.png?v=1633830894745");
+    background-size: 55%;
+  }
+  
+  .example > div:nth-child(3):hover {
+    background-image: url("https://cdn.glitch.me/1b7a87cc-1ff1-4c0b-9a7f-f189967cd646%2Ffoldable.png?v=1633831219315");
+    background-size: 70%;
+  }
+  
+  /*-----------------variety box-------------------------*/
+  #variety1,
+  #variety2,
+  #variety3 {
+    font-weight: bolder;
+    font-size: 20px;
+    color: white;
+    background: black;
+    font-family: Sans-serif;
+    padding: 2%;
+    width: 110px;
+  }
+  #variety1 {
+    width: 140px;
+  }
+  
+  /*------------Trending----------*/
+  .top_trend {
+    font-family: Fantasy;
+    font-size: 3em;
+    font-weight: bolder;
+  }
+  
+  #trending {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  #trending > div {
+    width: 200px;
+    height: 300px;
+    background:white;
+  }
+  #trending > div:nth-child(1) {
+    background-image: url("https://cdn.glitch.me/1b7a87cc-1ff1-4c0b-9a7f-f189967cd646%2F9power-removebg-preview.png?v=1633827718638");
+    background-position: center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+  }
+  #trending > div:nth-child(1):hover {
+    background-image: url("https://cdn.glitch.me/1b7a87cc-1ff1-4c0b-9a7f-f189967cd646%2FXiaomi_Redmi_9_Power.png?v=1633785064154");
+    background-position: center;
+    background-size: 150%;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 5px silver;
+  }
+  #trending > div:nth-child(1):before {
+    position:absolute;
+    width: 80px;px;
+    height:40px;
+    content:'BUY';
+    background-color: black;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    box-shadow:0px 0px 5px gray;
+  }  
+  #trending > div:nth-child(2) {
+    background-image: url("https://cdn.glitch.me/1b7a87cc-1ff1-4c0b-9a7f-f189967cd646%2Fiphone-13.png?v=1633828746319");
+    background-position: center;
+    background-size: 200%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+  }
+  #trending > div:nth-child(2):hover {
+    background-image: url("https://cdn.glitch.me/1b7a87cc-1ff1-4c0b-9a7f-f189967cd646%2Fiphone%2013.png?v=1633828745130");
+    background-position: center;
+    background-size: 200%;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 5px silver;
+  }
+  #trending > div:nth-child(2):before {
+    position:absolute;
+    width: 80px;px;
+    height:40px;
+    content:'BUY';
+    background-color: black;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    box-shadow:0px 0px 5px gray;
+  }  
+  
+  #trending > div:nth-child(3) {
+    background-image: url("https://cdn.glitch.me/1b7a87cc-1ff1-4c0b-9a7f-f189967cd646%2Fs10.png?v=1633828752817");
+    background-position: center;
+    background-size: 120%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+  }
+  #trending > div:nth-child(3):hover {
+    background-image: url("https://cdn.glitch.me/1b7a87cc-1ff1-4c0b-9a7f-f189967cd646%2Fs10back.png?v=1633828756375");
+    background-position: center;
+    background-size: 140%;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 5px silver;
+  }
+  #trending > div:nth-child(3):before {
+    position:absolute;
+    width: 80px;px;
+    height:40px;
+    content:'BUY';
+    background-color: black;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    box-shadow:0px 0px 5px gray;
+  }  
+
+  #trending > div:nth-child(4) {
+    background-image: url("https://cdn.glitch.me/1b7a87cc-1ff1-4c0b-9a7f-f189967cd646%2Fpixel_5.png?v=1633828748637");
+    background-position: center;
+    background-size: 130%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+  }
+  #trending > div:nth-child(4):hover {
+    background-image: url("https://cdn.glitch.me/1b7a87cc-1ff1-4c0b-9a7f-f189967cd646%2Fpixel_5_back.png?v=1633828750421");
+    background-position: center;
+    background-size: 115%;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 5px silver;
+  }
+  #trending > div:nth-child(4):before {
+    position:absolute;
+    width: 80px;px;
+    height:40px;
+    content:'BUY';
+    background-color: black;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    box-shadow:0px 0px 5px gray;
+  }  
+
+  #trending > div:nth-child(5) {
+    background-image: url("https://cdn.glitch.me/1b7a87cc-1ff1-4c0b-9a7f-f189967cd646%2Foneplus-9r.png?v=1633829447248");
+    background-position: center;
+    background-size: 65%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+  }
+  #trending > div:nth-child(5):hover {
+    background-image: url("https://cdn.glitch.me/1b7a87cc-1ff1-4c0b-9a7f-f189967cd646%2Foneplus_9r.png?v=1633829447248");
+    background-position: center;
+    background-size: 115%;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 5px silver;
+  }
+  #trending > div:nth-child(5):before {
+    position:absolute;
+    width: 80px;px;
+    height:40px;
+    content:'BUY';
+    background-color: black;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    box-shadow:0px 0px 5px gray;
+  }  
+
+  /*---------banner-------------*/
+  .banner {
+    display: flex;
+    justify-content: space-around;
+  }
+  .picture {
+    width: 500px;
+    height: 400px;
+    background-image: url("https://cdn.glitch.me/1b7a87cc-1ff1-4c0b-9a7f-f189967cd646%2Fimage5.jpg?v=1633705865964");
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .details {
+    width: 550px;
+    height: 400px;
+    padding: 10px;
+  }
+  .p1 {
+    font-family: sans-serif;
+    font-size: 3em;
+    font-weight: bolder;
+  }
+  .p2 {
+    font-family: sans-serif;
+    font-size: 1em;
+    line-height: 30px;
+  }
+  
+  /*----------companies--------------*/
+  .top_comp {
+    font-family: Fantasy;
+    font-size: 3em;
+    font-weight: bolder;
+  }
+  
+  #companies {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  #companies > div {
+    width: 200px;
+    height: 300px;
+    background: pink;
+  }
+  #companies > div:nth-child(1) {
+    background-color: #FF5F01;
+    background-image: url("https://cdn.glitch.me/1b7a87cc-1ff1-4c0b-9a7f-f189967cd646%2Fmi.png?v=1633831858898");
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    transition-duration:1s;
+    transform-origin:center;
+  }
+  
+  #companies > div:nth-child(2) {
+    background-color: #F7C024;
+    background-image: url("https://cdn.glitch.me/1b7a87cc-1ff1-4c0b-9a7f-f189967cd646%2Frealme.png?v=1633831859509");
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    transition-duration:1s;
+    transform-origin:center;
+  }
+  #companies > div:nth-child(2):hover {
+    /*   background-image:url();
+    background-position:center;
+    background-size:150%; */
+  }
+  
+  #companies > div:nth-child(3) {
+    background-color: #008D5C;
+    background-image: url("https://cdn.glitch.me/1b7a87cc-1ff1-4c0b-9a7f-f189967cd646%2FOPPO.png?v=1633832197869");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    transition-duration:1s;
+    transform-origin:center;
+  }
+  #companies > div:nth-child(3):hover {
+    /*   background-image:url();
+    background-position:center;
+    background-size:150%; */
+  }
+  
+  #companies > div:nth-child(4) {
+    background-color: #F40616;
+    background-image: url("https://cdn.glitch.me/1b7a87cc-1ff1-4c0b-9a7f-f189967cd646%2Funnamed-removebg-preview.png?v=1633832768332");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    transition-duration:1s;
+    transform-origin:center;
+  }
+  #companies > div:nth-child(4):hover {
+    /*   background-image:url();
+    background-position:center;
+    background-size:150%; */
+  }
+  
+  #companies > div:nth-child(5) {
+    background-color: #0094DA;
+    background-image: url("https://cdn.glitch.me/1b7a87cc-1ff1-4c0b-9a7f-f189967cd646%2F64749113-removebg-preview.png?v=1633832904489");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    transition-duration:1s;
+    transform-origin:center;
+  }
+  #companies>div:nth-child(5):hover {
+    /*   background-image:url();
+    background-position:center;
+    background-size:150%; */
+  }
+  /*----------------scroll picture---------------*/
+  .scroll_picture {
+    width: 600px;
+    height: 345px;
+    position: relative;
+    border: 1px solid silver;
+    box-shadow: 0px 0px 5px silver;
+    overflow: hidden;
+    background:;
+  }
+  
+  .c2 {
+    width: 2400px;
+    height: 345px;
+    background: ;
+    display: flex;
+    position: relative;
+    animation: myColor 20s infinite;
+    animation-timing-function: linear;
+  }
+  
+  @keyframes myColor {
+    0% {
+      left: 0px;
+    }
+    20% {
+      left: 0px;
+    }
+    22% {
+      left: -600px;
+    }
+    45% {
+      left: -600px;
+    }
+    47% {
+      left: -1200px;
+    }
+    70% {
+      left: -1200px;
+    }
+    72% {
+      left: -1800px;
+    }
+    98% {
+      left: -1800px;
+    }
+    100% {
+      left: 0px;
+    }
+  }
+  
+  .c2 > div {
+    width: 600px;
+    height: 345px;
+   transform-duration: 1s;
+  }
+  
+  .d1 {
+    background-image: url("https://cdn.glitch.me/1b7a87cc-1ff1-4c0b-9a7f-f189967cd646%2Fimage6.jpg?v=1633784070728");
+    -webkit-backgroud-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  
+  .d2 {
+    background-image: url("https://cdn.glitch.me/1b7a87cc-1ff1-4c0b-9a7f-f189967cd646%2Fimage8.webp?v=1633784070867");
+    -webkit-backgroud-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  
+  .d3 {
+    background-image: url("https://cdn.glitch.me/1b7a87cc-1ff1-4c0b-9a7f-f189967cd646%2Fimage7.jpg?v=1633784071057");
+    -webkit-backgroud-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  
+  .d4 {
+    background-image: url("https://cdn.glitch.me/1b7a87cc-1ff1-4c0b-9a7f-f189967cd646%2Fimage9.jpg?v=1633784224774");
+    -webkit-backgroud-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }

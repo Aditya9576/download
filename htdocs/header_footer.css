@@ -1,0 +1,121 @@
+#header_nav {
+    width: 100%;
+    height: 30px;
+    background: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    position: relative;
+    top: -10px;
+    margin-left: -10px;
+  }
+  .menu {
+    position: relative;
+    top: -10px;
+    width: 50%;
+    background: ;
+  }
+  .menu > ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  .menu > ul > li,
+  .menu > ul > a {
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Sans-serif;
+    font-size: 1.5em;
+    color: black;
+  }
+  .menu > ul > a:hover {
+    border-bottom: 2px solid black;
+  }
+  .search_bar {
+    position: relative;
+    top: -5px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .basic_icons {
+    width:40px;
+    height:40px;
+    border:2px solid black;
+    border-radius:50%;
+    font-size: 1.5em;
+    font-weight:bold;
+    background:black;
+    color:white;
+    cursor:pointer;
+  }
+  .search_bar > input {
+    outline: none;
+    width: 260px;
+    height: 35px;
+    border-radius: 5px 5px 5px 5px;
+    border: none;
+    border: 1px solid silver;
+    font-size: 1.2em;
+    display: flex;
+    font-size: 1em;
+  }
+  .search_bar > input:hover {
+    border-color: black;
+  }
+  
+  /*---------------------footer-------------*/
+  
+  #footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: whitesmoke;
+  }
+  
+  .footer_head {
+    font-family: Fantasy;
+    font-size: 3em;
+    font-weight: bolder;
+  }
+  #footer > ul > a{
+    text-decoration:none;
+    font-family: sans-serif;
+    line-height: 30px;
+    color:silver;
+  }
+  #footer > ul >a:hover {
+    border-bottom: 1px solid black;
+    cursor: pointer;
+    color:black;
+  }
+  
+  .footer_form {
+    display: flex;
+    height: 35px;
+    width: 380px;
+    padding: 1%;
+    border: 2px solid silver;
+    border-radius: 2%;
+  }
+  
+  .footer_form > input {
+    width: 340px;
+    font-size: 15;
+    outline: none;
+    border: none;
+  }
+  
+  .footer_form > button {
+    font-size: 1.5em;
+    font-weight: bolder;
+    border: none;
+    background: none;
+    color: silver;
+    cursor: pointer;
+  }
+  
+  .email_logo {
+    color: silver;
+    font-size: 30px;
+    position: relative;
+    top: -5px;
+  }

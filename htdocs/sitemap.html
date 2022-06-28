@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>About</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<style>
+.header{
+	width:100%;
+	background-color:whitesmoke;
+	position:relative;
+	display:flex;
+	align-items:center;
+	height:100px;
+}
+.header>p{
+	font-size:3em;
+	font-weight:bold;
+	font-family:Sans-serif;
+	text-shadow:2px 2px silver;
+	position:relative;
+	left:50px;
+}
+
+label{
+    font-size:x-large;
+    font-weight: bolder;
+    font-family: sans-serif;
+    line-height: 50px;
+}
+
+li{
+    line-height: 20px;
+}
+</style>
+<body>
+    <div class="header">
+        <p>SITEMAP</p>
+    </div>
+    <div id="content">
+        <ul>
+            <label>HTML FILES</label>
+            <ul>
+                <li>Index</li>
+                <li>Login</li>
+                <li>Register</li>
+                <li style="color:red">MyAccount</li>
+                <li>Payment</li>
+                <li>About</li>
+            </ul>
+        </ul>
+        <ul>
+            <label>CGI FILES</label>
+            <ul>
+                <li>login.py</li>
+                <li>logout.py</li>
+                <li>authenticate.py</li>
+                <li>deactivate_account.py</li>
+                <li>myAccout_display.py</li>
+                <li>myAccount_insert.py</li>
+                <li>register_add_user.py</li>
+            </ul>
+        </ul>
+        <ul>
+            <label>TEXT FILES</label>
+            <ul>
+                <li>userEmail.txt</li>
+                <li>userPassword.txt</li>
+            </ul>
+        </ul>
+        <ul>
+            <label>HIERARCHY !</label>
+            <li>Index</li>
+            <li>Login</li>
+                <ul>
+                    <li>login.py</li>
+                    <ul>
+                        <li>userEmail.py</li>
+                        <li>userPassword.py</li>
+                    </ul>
+                </ul>
+            <li>Logout</li>
+                <ul>
+                    <li>logout.py</li>
+                    <ul>
+                        <li>userEmail.py</li>
+                        <li>userPassword.py</li>
+                    </ul>
+                </ul>
+            <li style="color:red">MyAccount</li>
+                <ul>
+                    <li>authenticate.py</li>
+                    <li>myAccount_display.py</li>
+                    <li>myaccount_insert.py</li>
+                </ul>
+        </ul>
+    </div>
+</body>
+
+</html>

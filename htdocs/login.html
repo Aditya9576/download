@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Login Page</title>
+  </head>
+  <link rel="stylesheet" href="header_footer.css">
+  <link rel="stylesheet" href="login_css.css">
+  <body>
+    <!-- header nav-->
+    <div id='header_nav'>
+      <div class="menu">
+        <ul style="list-style-type:none">
+          <a href="index.html" target="_self"><li>HOME</li></a>
+          <a href="#"><li>SHOP</li></a>
+        <a href="#"><li>PRODUCT</li></a>
+        <a href="#"><li>PAGES</li></a>
+        <a href="#"><li>SITEMAP</li></a>
+        <a href='http://localhost/about.html' target="_blank"><li>ABOUT</li></a>
+      </ul>
+      </div>
+      <div class="search_bar">
+        <input type="text" placeholder="Search Products" /> <span style="font-size:20px;">&#x1F50D</span>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#footer"> <div class="basic_icons" >
+          <center> &downarrow;</center>
+       </div></a>
+      </div>
+    </div>
+    
+<!-- ---------login_box----------- -->
+    <div class="container">
+      <div class="login_head">
+          <p style="font-size:3em;">
+            Log In
+          </p>
+        <p>
+          <span style="color:silver;"> Home &nbsp; &#62; &nbsp;</span><span style="font-weight:bold;"> LogIn</span>
+        </p>
+      </div>
+      <div class="login_box">
+        <form class="loginForm" action="http://localhost/cgi-bin/login.py">
+          <p style="font-size:2em;">Log In</p>
+          <input type="email" name="email" placeholder="Email" required /></br>
+          <input type="password" name="password" placeholder="Password" required />
+          <p>
+            <a href="#" style="color:black;font-family:sans-serif;">Forgot your password?</a></br></br>
+          <input type="submit" value="Sign In" />
+          </p>
+        </form>
+&nbsp;
+        <div class="register">
+          <p style="font-size:2em;">New Customer</p>
+          <p style="line-height:30px;font-size:18px;word-spacing:5px;font-family:sans-serif;color:#536878;">
+            Sign up for early Sale access plus tailored
+        new arrivals, trends and promotions. To opt
+        out, click unsubscribe in our emails.
+          </p>
+    <a href="register.html"><button id="register_page">
+      Register
+    </button></a>
+        </div>
+      </div>
+    </div>
+    
+<!--     ----------footer-------------- -->
+    <h2 class="footer_head">
+      ACCOUNT SETTINGS</h2>
+  <div id="footer">
+    <ul style="list-style-type:none">
+      <li style="font-weight:bold;font-size:2em;font-family:sans-serif;line-height:90px;border:none;cursor:text;">About</li>
+     <a href='http://localhost/cgi-bin/authenticate.py' target="_self"><li>My account</li></a>
+      <a href='http://localhost/about.html' target="_blank">  <li>About</li></a>
+      <a href='#'> <li>Sitemap</li></a>
+      <a href='#'> <li>Product Compare</li></a>
+    </ul>
+    <ul style="list-style-type:none">
+      <li style="font-weight:bold;font-size:2em;font-family:sans-serif;line-height:90px;border:none;cursor:text;">Information</li>
+      <a href="register.html" target="_self"><li>Register</li></a>
+      <a href="#" target="_blank"><li>Login</li></a>
+      <a href='#'> <li>My Cart</li></a>
+      <a href='#'> <li>Wishlist</li></a>
+      <a href='http://localhost/cgi-bin/logout.py' target="_self"> <li style="color:red;">LogOut</li></a>
+    </ul>
+    
+    <div class="subscribe">
+      <div class="subscribe_details">
+        <p style="font-size:2em;font-weight:bolder;font-family:sanf-serif;">Don't miss a thing</p>
+     <p style="font-family:sanf-serif;"> Enter your email below to be the first to know about new </br>
+      collections and product launches.
+  </p>
+      </div>
+      <form class="footer_form">
+        <div class="email_logo">&#9993;</div>
+        <input type="email" placeholder="Enter your email">
+        <button type="submit">&rightarrow;</button>
+      </form>
+    </div>
+</div>
+<hr>
+  </body>
+</html>

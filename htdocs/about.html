@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>About</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<style>
+.header{
+	width:100%;
+	background-color:whitesmoke;
+	position:relative;
+	display:flex;
+	align-items:center;
+	height:100px;
+}
+.header>p{
+	font-size:3em;
+	font-weight:bold;
+	font-family:Sans-serif;
+	text-shadow:2px 2px silver;
+	position:relative;
+	left:50px;
+}
+
+.container{
+	width:100%;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	position:relative;
+}
+
+.details{
+	width:75%;
+}
+
+button{
+	width:100px;
+	padding:1%;
+	color:white;
+	background:black;
+	font-family:Sans-serif;
+	font-size:1em;
+	font-weight:bold;
+	border:none;
+	outline:none;
+	box-shadow:3px 3px silver;
+	cursor:pointer;
+}
+</style>
+<body>
+<div class="header">
+	<p>ABOUT</p>
+</div>
+<div class="container">
+	<div class="details">
+	<p><h3>What is Lorem Ipsum?</h3>
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
+with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+<p><h3>What is Lorem Ipsum?</h3>
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
+with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+<p><h3>What is Lorem Ipsum?</h3>
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
+with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+<p><h3>What is Lorem Ipsum?</h3>
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
+with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+<a href="http://localhost" target="_self"><button onclick="buttonClick()" id="home">HOME</button></a>
+</div>
+</div>
+</br>
+</br>
+<hr>
+</body>
+<script>
+	function buttonClick(){
+		document.getElementById('home').style.boxShadow = "0px 0px";
+		setTimeout(function(){
+			document.getElementById('home').style.boxShadow = "3px 3px silver";
+			},100);
+	}
+</script>
+</html>
